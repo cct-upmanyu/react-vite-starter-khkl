@@ -7,13 +7,6 @@ function App() {
   return (
     <BrowserRouter>
       <div className="app-container">
-        <header className="app-header">
-          <h1>My App</h1>
-          <nav>
-            <Link to="/">Home</Link>
-            <Link to="/about">About</Link>
-          </nav>
-        </header>
         <main>
           <Routes>
             <Route path="/" element={<Home />} />

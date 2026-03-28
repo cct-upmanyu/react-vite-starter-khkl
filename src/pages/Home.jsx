@@ -7,7 +7,7 @@ function Home() {
       <h1>Welcome to Home</h1>
       <p>This is the home page of our demo application.</p>
       <nav>
-        <Link to="/about">Go to About Page</Link>
+        <Link to="/admin/about">Go to About Page</Link>
       </nav>
     </div>
   )
